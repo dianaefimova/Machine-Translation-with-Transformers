@@ -12,14 +12,14 @@ The goal of this project is to build and train a Transformer-based translation m
 - Greedy decoding for inference
 
 ## Training setup
-Loss function: CrossEntropyLoss
-Optimizer: Adam
-lr = 0.0001
-betas = (0.9, 0.98)
-eps = 1e-9
-Batch size: 256
-Epochs: 15
-Train/Validation split: 80/20
+- Loss function: CrossEntropyLoss
+- Optimizer: Adam
+- lr = 0.0001
+- betas = (0.9, 0.98)
+- eps = 1e-9
+- Batch size: 256
+- Epochs: 15
+- Train/Validation split: 80/20
 
 ## Training results
 After 15 epochs:
@@ -29,7 +29,12 @@ After 15 epochs:
 
 The model demonstrates effective optimization and stable training behavior.
 
+<img width="519" height="333" alt="image" src="https://github.com/user-attachments/assets/4df72868-e7af-49a0-a5e8-c19fb5de6d69" />
+
 ## Model's results
+
+<img width="461" height="92" alt="image" src="https://github.com/user-attachments/assets/2029afd5-0282-4ac0-a984-a8089c937747" />
+
 
 ## Limitations
 While the model achieves low training and validation loss, it is important to note:
@@ -42,10 +47,10 @@ While the model achieves low training and validation loss, it is important to no
 Therefore, despite strong numerical performance, real-world translation quality is not perfect.
 
 ## How to run
-git clone https://github.com/dianaefimova/Machine_Translation_with_Transformers.git
-cd Machine_Translation_with_Transformers
-pip install -r requirements.txt
-python model.py
+#### git clone https://github.com/dianaefimova/Machine_Translation_with_Transformers.git
+#### cd Machine_Translation_with_Transformers
+#### pip install -r requirements.txt
+#### python model.py
 
 
 
